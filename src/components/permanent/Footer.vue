@@ -1,28 +1,15 @@
-
 <script setup lang="ts">
-    import {
-        User,
-        BadgeQuestionMark,
-        CalendarClock,
-        Orbit,
-        Home
-    } from "lucide-vue-next";
+
 </script>
 
 <template>
-    <header
-        class="bg-emerald-700 text-white px-6 py-4 flex justify-between items-center"
+    <footer
+        class="bg-emerald-800 text-white px-6 py-4 flex justify-between items-center"
     >
         <div class="flex items-center gap-3">
-            
-            <RouterLink to="/" class="flex items-center gap-3">
-                <CalendarClock :size="27" />
-
-                <h1 class="text-2xl font-bold">
-                    <strong class="text-amber-300">IF</strong>CE Hub
-                </h1>
-            </RouterLink>
-
+            <p class="text-sm">
+                &copy; 2024 IFCE Hub. Todos os direitos reservados.
+            </p>
         </div>
 
         <div class="flex gap-8 items-center">
@@ -42,5 +29,5 @@
                 <BadgeQuestionMark :size="24" />
             </RouterLink>
         </div>
-    </header>
+    </footer>
 </template>

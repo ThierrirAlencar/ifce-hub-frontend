@@ -11,9 +11,9 @@
     "type-check": "vue-tsc --build"
   },
   "dependencies": {
-    "@primeicons/vue": "^8.0.2",
+    "@lucide/vue": "^1.54.0",
     "@tailwindcss/vite": "^4.3.3",
-    "primevue": "^5.0.2",
+    "lucide-vue-next": "^1.0.0",
     "tailwindcss": "^4.3.3",
     "vue": "^3.5.42",
     "vue-router": "^5.3.1"
