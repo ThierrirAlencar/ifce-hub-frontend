@@ -121,7 +121,7 @@
   <main class="min-h-screen bg-slate-50">
     <div class="mx-auto w-full max-w-5xl px-4 py-10 sm:px-6">
       <RouterLink
-        to="/my-classes"
+        to="/minhas-turmas"
         class="inline-flex items-center gap-2 rounded-full text-sm font-semibold text-slate-500 transition-colors hover:text-emerald-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600/40"
       >
         <ArrowLeft class="size-4" aria-hidden="true" />

@@ -20,7 +20,7 @@ export const turmasMock: Turma[] = [
             },
             {
                 id: 2,
-                titulo: 'Avaliação 2 — HTTP e APIs REST',
+                titulo: 'Avaliação 2 HTTP e APIs REST',
                 descricao: 'Prova prática em laboratório, com consulta à documentação.',
                 tipo: 'avaliacao',
                 prazo: '2026-10-21T19:00:00',
@@ -87,7 +87,24 @@ export const turmasMock: Turma[] = [
         horario: 'Sex, 19h00 – 22h00',
         sala: 'Sala 08',
         totalAlunos: 30,
-        atividades: [],
+        atividades: [
+            {
+                id: 19,
+                titulo: 'Prova de Engenharia de Software N1.1',
+                descricao: 'Prova prática em laboratório, com consulta à documentação.',
+                tipo: 'avaliacao',
+                prazo: '2026-10-21T23:59:00',
+                turmaId: 'engenharia_de_software_prof_helena_martins'
+            },
+            {
+                id: 20,
+                titulo: 'Prova de Engenharia de Software N1.2',
+                descricao: 'Prova prática em laboratório, sem consulta à documentação.',
+                tipo: 'avaliacao',
+                prazo: '2026-10-30T23:59:00',
+                turmaId: 'engenharia_de_software_prof_helena_martins'
+            },
+        ],
     },
     {
         id: 'logica_de_programacao_prof_carlos_teixeira',
@@ -97,6 +114,15 @@ export const turmasMock: Turma[] = [
         horario: 'Seg e qua, 21h00 – 22h40',
         sala: 'Laboratório 1',
         totalAlunos: 35,
-        atividades: [],
+        atividades: [
+            {
+                id: 31,
+                titulo: 'Prova de Lógica de Programação N1.1',
+                descricao: 'Prova de análise de algoritmos e estruturas de dados, com consulta à documentação.',
+                tipo: 'avaliacao',
+                prazo: '2026-10-22T23:59:00',
+                turmaId: 'logica_de_programacao_prof_carlos_teixeira'
+            },
+        ],
     },
     ]
