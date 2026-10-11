@@ -138,7 +138,7 @@
           Ela pode ter sido removida ou você não tem acesso a ela.
         </p>
         <RouterLink
-          to="/my-classes"
+          to="/minhas-turmas"
           class="mt-5 inline-block rounded-full bg-emerald-600 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-emerald-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-600/40"
         >
           Ver minhas turmas
